@@ -1,0 +1,12 @@
+* {
+    font-family: Roboto;
+    padding: 0;
+    margin: 0;
+}
+
+.flex {
+    display: flex;
+}
+.text-dark {
+    color: black;
+}

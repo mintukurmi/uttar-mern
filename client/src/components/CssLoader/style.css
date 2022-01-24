@@ -1,0 +1,69 @@
+.br {
+    border-radius: 8px;
+}
+.w80 {
+    width: 80%;
+}
+.w30 {
+    width: 35%;
+}
+.w100 {
+    width: 100%;
+}
+.chip {
+    height: 0.7rem !important;
+    width: 6rem;
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 1rem;
+}
+.chip-sm {
+    height: 0.7rem !important;
+    width: 4rem;
+    display: flex;
+    justify-items: flex-start;
+    margin-left: 1rem;
+}
+.card {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    margin-top: 18px;
+}
+.desc {
+    margin-top: 0.7rem !important;
+    height: 5rem !important;
+}
+.wrapper {
+    width: 0px;
+    animation: fullView 0.5s forwards cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.profilePic {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+}
+.comment {
+    height: 10px;
+    background: #777;
+    margin-top: 20px;
+}
+
+@keyframes fullView {
+    100% {
+        width: 100%;
+    }
+}
+
+.animate {
+    animation: shimmer 2s infinite linear;
+    background: linear-gradient(to right, #eff1f3 4%, #e2e2e2 25%, #eff1f3 36%);
+    background-size: 1000px 100%;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -1000px 0;
+    }
+    100% {
+        background-position: 1000px 0;
+    }
+}
